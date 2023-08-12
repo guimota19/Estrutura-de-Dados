@@ -4,6 +4,10 @@ double calcular_dob(double n ){
     return n * 2;
 }
 
+int verificar_numero_primo(int n){
+    return 0;
+}
+
 
 int main(int argc, char* argv[]){
     int n = 11;
@@ -11,6 +15,8 @@ int main(int argc, char* argv[]){
     float f1 = 1.5;
     double d1= 1.555555;
     char letra = 'j';
+
+    printf("\n%s\n", argv[1]);
 
 
     if(n2){
