@@ -7,7 +7,7 @@ return 0;
  
 }
  
- 
+
 int main(int argc, char* argv[]) {
  
  int n, i, res=0;
@@ -23,25 +23,19 @@ int main(int argc, char* argv[]) {
     }
  
  
- 
     if (res == 0){
-        printf (" %d o nUmero n e primo", n);
+        printf (" %d o numero nao e primo", n);
  
     } else {
-        printf (" %d o nUmero e primo", n);
+        printf (" %d o numero e primo", n);
  
     }
  
 /*
- 
     estrutura do argv serve como scanf mais simplificado, colocar depois do .exe
     sempre usar com #include <stdlib.h>
  
- 
- 
 */
- 
- 
  
     return 0;
 }
