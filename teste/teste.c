@@ -1,3 +1,5 @@
+
+
 #include <stdio.h>
 
 double calcular_dob(double n ){
@@ -38,13 +40,4 @@ int main(int argc, char* argv[]){
     } while (n < 10);
 
     printf("O dobro de %f eh %f", d1, calcular_dob(d1));
-
-
-
-
-  
 }
-
-
-
-
