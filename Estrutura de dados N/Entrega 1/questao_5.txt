@@ -1,0 +1,19 @@
+O método da bolha, ou Bubble Sort, é um algoritmo simples de ordenação de valores. Ele funciona comparando cada elemento da lista com o próximo e trocando-os de lugar se estiverem na ordem errada. Este processo é repetido até que a lista esteja ordenada.
+O Bubble Sort não é o algoritmo de ordenação mais eficiente para listas grandes, pois sua complexidade de tempo é O(n²). No entanto, ele tem a vantagem de ser fácil de entender e implementar. Além disso, ele funciona bem para listas pequenas ou para listas que já estão parcialmente ordenadas.
+
+Exemplo de como implementar o Bubble Sort em Python:
+
+def bubble_sort(lista):
+    n = len(lista)
+    for i in range(n):
+        for j in range(0, n - i - 1):
+            if lista[j] > lista[j + 1]:
+                lista[j], lista[j + 1] = lista[j + 1], lista[j]
+    return lista
+
+# Testando o algoritmo
+lista = [64, 34, 25, 12, 22, 11, 90]
+bubble_sort(lista)
+print("Lista ordenada é:", lista)
+
+

@@ -1,0 +1,56 @@
+
+1. List (Lista):
+   - Características Principais:
+     - É uma coleção ordenada de elementos.
+     - Os elementos podem ser de diferentes tipos, incluindo outros objetos compostos.
+     - Os elementos podem ser acessados por índices (posições na lista).
+     - Pode conter elementos duplicados.
+     - É mutável, o que significa que os elementos podem ser alterados, adicionados ou removidos.
+
+   - Principais Funções:
+     - `append(item)`: Adiciona um elemento ao final da lista.
+     - `insert(index, item)`: Insere um elemento em uma posição específica.
+     - `remove(item)`: Remove a primeira ocorrência de um elemento.
+     - `pop(index)`: Remove e retorna o elemento da posição especificada.
+     - `len(lista)`: Retorna o número de elementos na lista.
+     - `index(item)`: Retorna o índice da primeira ocorrência de um elemento.
+     - `count(item)`: Retorna o número de ocorrências de um elemento.
+     - `sort()`: Ordena a lista em ordem crescente (ou com um critério opcional).
+
+
+
+2. Set (Conjunto):
+   - Características Principais:
+     - É uma coleção não ordenada de elementos únicos.
+     - Não permite elementos duplicados.
+     - Não suporta indexação (não é possível acessar elementos por índices).
+     - É mutável, o que significa que elementos podem ser adicionados ou removidos.
+   
+- Principais Funções:
+     - `add(item)`: Adiciona um elemento ao conjunto.
+     - `remove(item)`: Remove um elemento do conjunto. Gera um erro se o elemento não estiver presente.
+     - `discard(item)`: Remove um elemento do conjunto, mas não gera um erro se o elemento não estiver presente.
+     - `pop()`: Remove e retorna um elemento aleatório do conjunto.
+     - `clear()`: Remove todos os elementos do conjunto.
+     - `len(conjunto)`: Retorna o número de elementos no conjunto.
+     - Operações de conjuntos, como união (`union`), interseção (`intersection`) e diferença (`difference`), também são suportadas.
+
+
+
+3. Map (Dicionário):
+   - Características Principais:
+     - É uma coleção de pares chave-valor.
+     - As chaves são únicas e imutáveis (geralmente strings ou números).
+     - Os valores podem ser de qualquer tipo.
+     - Não mantém uma ordem específica nos pares chave-valor (a partir do Python 3.7, a ordem de inserção é preservada).
+     - É mutável, permitindo adicionar, modificar ou remover pares chave-valor.
+   
+- Principais Funções:
+     - `get(chave)`: Retorna o valor associado à chave especificada ou um valor padrão se a chave não existir.
+     - `pop(chave)`: Remove o par chave-valor associado à chave especificada e retorna o valor.
+     - `keys()`: Retorna uma lista de todas as chaves no dicionário.
+     - `values()`: Retorna uma lista de todos os valores no dicionário.
+     - `items()`: Retorna uma lista de tuplas (chave, valor) representando todos os pares chave-valor no dicionário.
+     - `update(outro_dicionario)`: Atualiza o dicionário com os pares chave-valor de outro dicionário.
+
+Essas são algumas das principais características e funções das estruturas de dados embutidas list, set e map (dicionário) em Python. Cada uma delas é útil para tarefas específicas, dependendo dos requisitos do seu programa.
